@@ -81,6 +81,7 @@ dependencies:
   - xz=5.2.5=h62dcd97_1
   - zlib=1.2.11=h62dcd97_1010
   - zstd=1.4.9=h6255e5f_0
+  - pip
   - pip:
     - absl-py==0.14.0
     - argon2-cffi==21.1.0
@@ -101,7 +102,7 @@ dependencies:
     - cython==0.29.23
     - debugpy==1.4.3
     - defusedxml==0.7.1
-    - en-core-web-sm==3.1.0
+    # - en-core-web-sm==3.1.0
     - entrypoints==0.3
     - flatbuffers==1.12
     - gast==0.4.0
